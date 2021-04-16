@@ -6,8 +6,7 @@ from ecoshop.models import Cart
 
 
 def home(request):
-    cart = Cart.objects.filter(user=request.user)
-    return render(request, 'core/home.html',{'total_item':cart})
+    return render(request, 'core/home.html')
 
 
 # class ContactView(View):
