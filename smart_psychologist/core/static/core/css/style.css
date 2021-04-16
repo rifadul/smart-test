@@ -1,0 +1,25 @@
+body {
+     background-color: #f1f7fa !important;
+}
+.navbar-light {
+     background-color: #666b75 !important;
+     color: white;
+}
+.navbar-bg-color {
+     background-color: #2369ff !important;
+     height: 60px;
+     color: white;
+}
+
+.navbar ul li a {
+     color: white !important;
+     font-weight: 500;
+}
+.dropdown-menu .dropdown-item {
+     color: black !important;
+}
+/* .navbar-bg-color {
+     background-color: #ff4e23 !important;
+     height: 60px;
+     color: white;
+} */

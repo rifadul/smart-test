@@ -1,0 +1,165 @@
+{% extends 'core/base.html' %}
+
+{% block title %} Home {% endblock title %}
+
+{% block main-content %}
+
+<h1>I am Home {{user}}</h1>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+            featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+    <div class="card-group">
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+    </div>
+
+    <label for="basic-url">Your vanity URL</label>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+        </div>
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">$</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <div class="input-group-append">
+            <span class="input-group-text">.00</span>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">With textarea</span>
+        </div>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+
+
+</div>
+
+
+<div class="intro">
+    <div class="intro_background" style="background-image:url(images/intro.png)"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="intro_container">
+                    <div class="row">
+
+                        <!-- Intro Item -->
+                        <div class="col-lg-4 intro_col">
+                            <div class="intro_item d-flex flex-row align-items-end justify-content-start">
+                                <div class="intro_icon"><img src="#" alt=""></div>
+                                <div class="intro_content">
+                                    <div class="intro_title">Top Destinations</div>
+                                    <div class="intro_subtitle">
+                                        <p>Nulla pretium tincidunt felis, nec.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Intro Item -->
+                        <div class="col-lg-4 intro_col">
+                            <div class="intro_item d-flex flex-row align-items-end justify-content-start">
+                                <div class="intro_icon"><img src="#" alt=""></div>
+                                <div class="intro_content">
+                                    <div class="intro_title">The Best Prices</div>
+                                    <div class="intro_subtitle">
+                                        <p>Sollicitudin mauris lobortis in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Intro Item -->
+                        <div class="col-lg-4 intro_col">
+                            <div class="intro_item d-flex flex-row align-items-end justify-content-start">
+                                <div class="intro_icon"><img src="#" alt=""></div>
+                                <div class="intro_content">
+                                    <div class="intro_title">Amazing Services</div>
+                                    <div class="intro_subtitle">
+                                        <p>Nulla pretium tincidunt felis, nec.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock main-content %}

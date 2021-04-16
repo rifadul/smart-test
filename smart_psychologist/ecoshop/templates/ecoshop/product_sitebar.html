@@ -1,0 +1,11 @@
+{% load static %}
+<h4>Welcome {{user | capfirst }}</h4>
+<hr>
+<div class="list-group">
+    <a href="{% url 'shop' %}" class="list-group-item list-group-item-action">All Product </a>
+    {% for cate in category %}
+    <a href="{% url 'productbycategory' cate.id %}"
+        class="list-group-item list-group-item-action">{{cate.product_category}}</a>
+    {% endfor %}
+
+</div>
